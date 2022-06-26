@@ -15,6 +15,7 @@
 		8CF9CA4028684519003E62F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF9CA3E28684519003E62F7 /* LaunchScreen.storyboard */; };
 		8CF9CA4B28684519003E62F7 /* UnitTestWithMockNetworkCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9CA4A28684519003E62F7 /* UnitTestWithMockNetworkCallsTests.swift */; };
 		8CF9CA5628684519003E62F7 /* UnitTestWithMockNetworkCallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9CA5528684519003E62F7 /* UnitTestWithMockNetworkCallsUITests.swift */; };
+		8CF9CA6F28684571003E62F7 /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9CA6E28684571003E62F7 /* MockDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8CF9CA5128684519003E62F7 /* UnitTestWithMockNetworkCallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestWithMockNetworkCallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF9CA5528684519003E62F7 /* UnitTestWithMockNetworkCallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestWithMockNetworkCallsUITests.swift; sourceTree = "<group>"; };
 		8CF9CA5728684519003E62F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF9CA6E28684571003E62F7 /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8CF9CA3C28684519003E62F7 /* Assets.xcassets */,
 				8CF9CA3E28684519003E62F7 /* LaunchScreen.storyboard */,
 				8CF9CA4128684519003E62F7 /* Info.plist */,
+				8CF9CA6E28684571003E62F7 /* MockDataLoader.swift */,
 			);
 			path = UnitTestWithMockNetworkCalls;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				8CF9CA3828684518003E62F7 /* ViewController.swift in Sources */,
 				8CF9CA3428684518003E62F7 /* AppDelegate.swift in Sources */,
+				8CF9CA6F28684571003E62F7 /* MockDataLoader.swift in Sources */,
 				8CF9CA3628684518003E62F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
